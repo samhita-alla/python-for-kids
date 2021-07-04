@@ -3,11 +3,13 @@
 Learning Python isn't mundane anymore. It's gonna be fun! 😻
 
 Part One: Prerequisites
+
     * Decoding "Programming"
     * Dive into the Computer Hardware
     * About Python
     * Getting Started — installation and test
 Part Two: Basics
+
     * Python Basics
     * Control Flow
     * Python Data Structures
