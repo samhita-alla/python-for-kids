@@ -23,4 +23,5 @@ class SquareArea(RectangleArea):
 
 
 square = SquareArea(3)
+print(square.area())
 print(square.perimeter())

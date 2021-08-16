@@ -1,13 +1,15 @@
 """
 Assignment Question
 
-Write a function, area_difference, that takes two Rectangle instances (note: "Rectangle" is a class) as parameters and returns the signed difference in area between them. 
+Write a function, area_difference, that takes two Rectangle instances (note: "Rectangle" is a class) as parameters and 
+returns the signed difference in area between them. 
+
 "signed difference" means that rather than always returning a positive number, the sign of the return value should be negative 
 if the first rectangle is smaller. Test your code with: 
 
     rectange_one = Rectangle(3, 4)
     rectange_two = Rectangle(4, 4)
-    print(area_difference(rectange_one, rectange_twp))
+    print(area_difference(rectangle_one, rectangle_two))
 """
 
 
@@ -22,6 +24,6 @@ def area_difference(r1, r2):
 
 
 # TEST
-rectange_one = Rectangle(3, 4)
-rectange_two = Rectangle(4, 4)
-print(area_difference(rectange_one, rectange_two))
+rectangle_one = Rectangle(3, 4)
+rectangle_two = Rectangle(4, 4)
+print(area_difference(rectangle_one, rectangle_two))

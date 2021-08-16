@@ -16,9 +16,13 @@ class SquareArea(RectangleArea):
     def __init__(self, length):
         super().__init__(length, length)
 
+    # Override
+    def area(self):
+        return f"Area is {self.length * self.breadth}"
 
-rectange = RectangleArea(10, 9)
-print(rectange.area())
+
+rectangle = RectangleArea(10, 9)
+print(rectangle.area())
 
 square = SquareArea(3)
 print(square.area())

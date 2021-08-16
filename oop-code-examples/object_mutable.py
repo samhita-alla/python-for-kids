@@ -1,5 +1,5 @@
 """
-Object Args
+Objects are mutable!
 """
 import sys
 
@@ -13,9 +13,6 @@ class Student:
         return f"{self.name} belongs to {self.grade} grade."
 
 
-# student_one = Student()
-# Output?
-
 student_one = Student("John", "Tenth")
 print(student_one)
 
@@ -25,14 +22,5 @@ choice = input("Your choice: ")
 if choice == "n":
     sys.exit(1)
 
-print(student_one.name)
-print(student_one.grade)
-
-print("************")
-
-choice = input("Your choice: ")
-if choice == "n":
-    sys.exit(1)
-
-student_one.name = "Oliver"
+student_one.name = "Samhita"
 print(student_one)

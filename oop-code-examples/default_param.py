@@ -1,11 +1,10 @@
 """
 Default Parameter
 """
-import math
 
 
 class RectangleArea:
-    def __init__(self, length, breadth):
+    def __init__(self, length=5, breadth=3):
         self.length = length
         self.breadth = breadth
 
@@ -13,14 +12,6 @@ class RectangleArea:
         return self.length * self.breadth
 
 
-class SquareArea(RectangleArea):
-    def __init__(self, length=3):
-        super().__init__(length, length)
-
-    # Extend
-    def perimeter(self):
-        return f"Perimeter of square is: {4 * math.sqrt(self.area())}"
-
-
-square = SquareArea()
-print(square.perimeter())
+# no length given, will this work?
+rectangle = RectangleArea()
+print(rectangle.area())
